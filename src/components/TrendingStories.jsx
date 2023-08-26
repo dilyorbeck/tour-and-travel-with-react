@@ -22,9 +22,9 @@ const TrendingStories = () => {
             <StoriesCard title={heading} paragraph={subtitle} storyImg={img} key={index} />
           ))}
       </div>
-      <img src={circle} className="hidden h-5 w-5 absolute -ml-20 -mt-96 md:block" alt="" />
-      <img src={circle} className="hidden h-9 w-9 absolute ml-[59.5rem] -mt-[39rem] -z-10 md:block" alt="" />
-      <img src={plus} className="hidden h-7 w-7 absolute ml-[30.4rem] -mt-4 md:block" alt="" />
+      <img src={circle} className="hidden absolute h-4 w-4 -ml-20 -mt-52 md:block" alt="" />
+      <img src={circle} className="hidden absolute h-4 w-4 ml-[39rem] md:block" alt="" />
+      <img src={plus} className="hidden absolute h-4 w-4 -mt-[35rem] ml-80 md:block" alt="" />
     </section>
   )
 }
