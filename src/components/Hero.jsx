@@ -3,7 +3,7 @@ import Input from "./Input"
 import { destination, plus, circle } from "../assets"
 
 const Hero = () => (
-  <section className="mx-auto text-center mt-10 md:text-left md:mt-16 ">
+  <section id='home' className="mx-auto text-center mt-10 md:text-left md:mt-16 ">
     <div className="flex flex-col space-y-10 md:flex-row md:space-x-32 md:space-y-0">
       <div className="md:w-1/2 md:mt-5">
         <h1 className="font-semibold text-6xl text-normalBlack">

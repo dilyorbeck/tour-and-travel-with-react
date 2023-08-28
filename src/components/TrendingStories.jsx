@@ -1,19 +1,12 @@
 import StoriesCard from "./StoriesCard"
+import TitleHeader from "./TitleHeader"
 import { meditation, japaneseFood, chichenItza, surfing, circle, plus } from '../assets'
-import { FaChevronRight } from 'react-icons/fa';
 
 const TrendingStories = () => {
   return (
-    <section className="mt-20 px-2 md:px-0 md:mt-56">
-      <div className="flex items-center justify-between">
-        <h1 className="text-left font-semibold text-3xl text-normalBlack leading-[42px]">
-          Trending Stories
-        </h1>
-        <span className="flex items-center text-lightOrange text-sm font-medium hover:text-orange-300">
-          <a href="#" className="leading-[51px] mr-1">View all  </a><FaChevronRight />
-        </span>
-      </div>
-      <div className="grid md:grid-cols-4 text-center md:text-left pt-5 pb-12 space-y-5 md:space-y-0 md:space-x-3 md:flex-row ">
+    <section id="partner" className="mt-20 px-2 md:px-0 md:mt-56">
+      <TitleHeader title='Trending Stories'/>
+      <div className="grid md:grid-cols-4 text-center md:text-left py-12 space-y-5 md:space-y-0 md:space-x-3 md:flex-row ">
         {[
           { heading: 'The many benefits of taking a healing holiday', subtitle: "‘Helaing holidays’ are on the rise to help maximise your health and happines...", img: meditation },
           { heading: 'The best Kyoto restaurant to try Japanese food', subtitle: "From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...", img: japaneseFood },
@@ -24,7 +17,7 @@ const TrendingStories = () => {
       </div>
       <img src={circle} className="hidden absolute h-4 w-4 -ml-20 -mt-52 md:block" alt="" />
       <img src={circle} className="hidden absolute h-4 w-4 ml-[39rem] md:block" alt="" />
-      <img src={plus} className="hidden absolute h-4 w-4 -mt-[35rem] ml-80 md:block" alt="" />
+      <img src={plus} className="hidden absolute h-4 w-4 -mt-[38rem] ml-80 md:block" alt="" />
     </section>
   )
 }

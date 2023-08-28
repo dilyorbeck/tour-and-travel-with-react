@@ -13,4 +13,6 @@ import meditation from "./meditation.png"
 import japaneseFood from "./japanese-food.png"
 import chichenItza from "./chichen-itza.png"
 import surfing from "./surfing.png"
-export { logo, exploration, guides, destination, plus, circle, edwardNewgate, rajaAmpat, fanjingshan, vevey, skadar, meditation, japaneseFood, chichenItza, surfing  }
+import close from "./close.png"
+import menu from "./menu.png"
+export { logo, exploration, guides, destination, plus, circle, edwardNewgate, rajaAmpat, fanjingshan, vevey, skadar, meditation, japaneseFood, chichenItza, surfing, close, menu  }

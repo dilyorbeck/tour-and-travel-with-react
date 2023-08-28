@@ -12,7 +12,7 @@ export const navLinks = [
       title: "About",
     },
     {
-      id: "Partner",
+      id: "partner",
       title: "Partner",
     },
   ];  

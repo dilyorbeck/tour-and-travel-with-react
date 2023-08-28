@@ -5,6 +5,7 @@ import Carousel from "./Carousel"
 import DestinationCard from "./DestinationCard"
 import Guides from "./Guides";
 import Testimonials from "./Testimonials";
+import TitleHeader from "./TitleHeader";
 import TrendingStories from "./TrendingStories"
 import StoriesCard from "./StoriesCard"
 import Footer from "./Footer"
@@ -18,7 +19,8 @@ export {
   Carousel,
   DestinationCard,
   Guides, 
-  Testimonials, 
+  Testimonials,
+  TitleHeader, 
   StoriesCard,
   TrendingStories,
   Footer
